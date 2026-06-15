@@ -1,105 +1,64 @@
 <!DOCTYPE html>
-<html>
+<html lang="ko">
 <head>
     <meta charset="UTF-8">
-    <title>홈페이지</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>flex 가이드</title>
     <style>
-        body { 
-            text-align: center; 
-            font-family: sans-serif; 
-            padding-top: 50px; 
+        header {
+            height: 80px;
+            text-align: center;
         }
-        .totalbox { 
-            display: flex; 
-            justify-content: center; 
-            gap: 5px; 
-            margin-top: 20px; 
+        section {
+            width: 1200px;
+            margin: 0 auto;
+            display: flex;
+            justify-content: center;
+            gap: 20px;
         }
-        .box { 
-            border: 1px solid #ccc; 
-            border-radius: 10px; 
-            padding: 10px; 
-            width: 250px; 
-            text-decoration: none; 
-            color: black; 
-            cursor: pointer; 
+        .div {
+            width: 300px;
+            text-align: center;
+            border: 1px solid lightgray;
+            border-radius: 10px;
+            height: 100px;
         }
-        .box:hover {
-            background-color: #f9f9f9;
-        }
-        .box h3 { 
-            margin: 0 0 8px 0; 
-            font-size: 18px; 
-        }
-        .box p { 
-            margin: 0; 
-            font-size: 14px; 
-            color: #666; 
+        .div a {
+            text-decoration: none;
+            color: black;
         }
     </style>
 </head>
 <body>
 
-    <div class="top">
+    <header>
         <h1>윤신재의 홈페이지</h1>
-    </div>
+    </header>
 
-    <div class="totalbox">
+    <section>
 
-        <a href="https://vr.yuhan.ac.kr/index.do" class="box">
-            <h3>유한대 컴공 겜콘</h3>
-            <p>클릭하세요~</p>
-        </a>
+        <div class="div">
+            <a href="https://vr.yuhan.ac.kr/index.do">
+                <h3>유한대 컴공 겜콘</h3>
+                <p>클릭하세요~</p>
+            </a>
+        </div>
 
-        <a href="https://vr.yuhan.ac.kr/index.do" class="box">
-            <h3>유한대 컴공 겜콘</h3>
-            <p>클릭하세요~</p>
-        </a>
+        <div class="div">
+            <a href="https://vr.yuhan.ac.kr/index.do">
+                <h3>유한대 컴공 겜콘</h3>
+                <p>클릭하세요~</p>
+            </a>
+        </div>
 
-        <a href="https://vr.yuhan.ac.kr/index.do" class="box">
-            <h3>유한대 컴공 겜콘</h3>
-            <p>클릭하세요~</p>
-        </a>
+        <div class="div">
+            <a href="https://vr.yuhan.ac.kr/index.do">
+                <h3>유한대 컴공 겜콘</h3>
+                <p>클릭하세요~</p>
+            </a>
+        </div>
 
-    </div>
-
-    <div class="totalbox">
-
-        <a href="https://vr.yuhan.ac.kr/index.do" class="box">
-            <h3>유한대 컴공 겜콘</h3>
-            <p>클릭하세요~</p>
-        </a>
-
-        <a href="https://vr.yuhan.ac.kr/index.do" class="box">
-            <h3>유한대 컴공 겜콘</h3>
-            <p>클릭하세요~</p>
-        </a>
-
-        <a href="https://vr.yuhan.ac.kr/index.do" class="box">
-            <h3>유한대 컴공 겜콘</h3>
-            <p>클릭하세요~</p>
-        </a>
-
-    </div>
-
-    <div class="totalbox">
-
-        <a href="https://vr.yuhan.ac.kr/index.do" class="box">
-            <h3>유한대 컴공 겜콘</h3>
-            <p>클릭하세요~</p>
-        </a>
-
-        <a href="https://vr.yuhan.ac.kr/index.do" class="box">
-            <h3>유한대 컴공 겜콘</h3>
-            <p>클릭하세요~</p>
-        </a>
-
-        <a href="https://vr.yuhan.ac.kr/index.do" class="box">
-            <h3>유한대 컴공 겜콘</h3>
-            <p>클릭하세요~</p>
-        </a>
-
-    </div>
+    </section>
 
 </body>
 </html>
